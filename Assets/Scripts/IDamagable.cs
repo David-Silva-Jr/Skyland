@@ -2,8 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Item
-{   
-    public string name;
-    public Sprite icon;
+public interface IDamagable
+{
+    public void TakeDamage(float amount);
 }

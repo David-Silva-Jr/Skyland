@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public interface IEquipable
-{
-    void ItemAction();
+{  
+    void OnInputStart(Object args);
+    void OnInputEnd(Object args);
+    // void ItemAction();
 }
